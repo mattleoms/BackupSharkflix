@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fa338cbcc3bb6210138fd5fc050131b2" sys_domain="global" table="x_1330572_sharkf_0_media" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 14:55:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e33ccbcc3bb6210138fd5fc05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1330572_sharkf_0_media" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">fa338cbcc3bb6210138fd5fc050131b2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">3faa3be0c3bb6210138fd5fc0501316f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 14:55:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 14:55:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa33ccbcc3bb6210138fd5fc05013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1330572_sharkf_0_media" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">fa338cbcc3bb6210138fd5fc050131b2</sys_ui_form>
+            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">76338cbcc3bb6210138fd5fc050131b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 14:55:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 14:55:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7633ccbcc3bb6210138fd5fc0501319b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1330572_sharkf_0_media" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">fa338cbcc3bb6210138fd5fc050131b2</sys_ui_form>
+            <sys_ui_section caption="Language" display_value="Language" name="x_1330572_sharkf_0_media" sys_domain="global" view="Default view">3e338cbcc3bb6210138fd5fc050131b1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 14:55:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1330572_sharkf_0_media</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-02 14:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa338cbcc3bb6210138fd5fc050131b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1330572_sharkf_0_media</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fa338cbcc3bb6210138fd5fc050131b2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-02 14:55:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

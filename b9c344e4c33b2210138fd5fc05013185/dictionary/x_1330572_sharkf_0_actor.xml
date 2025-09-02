@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e367f720c3bb6210138fd5fc050131d0" label="Actor" max_length="40" name="x_1330572_sharkf_0_actor" type="collection">
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+    </element>
+</database>

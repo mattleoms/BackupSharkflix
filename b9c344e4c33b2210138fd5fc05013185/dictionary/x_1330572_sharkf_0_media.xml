@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="97aabb24c3bb6210138fd5fc05013138" label="Media" max_length="40" name="x_1330572_sharkf_0_media" type="collection">
+        <element label="Poster" max_length="1000" name="poster" type="url"/>
+        <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element label="Genre" max_length="1024" name="genre" reference="x_1330572_sharkf_0_genre" type="glide_list"/>
+        <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+        <element label="Website" max_length="1000" name="website" type="url"/>
+        <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element label="Country" max_length="250" name="country" type="string"/>
+        <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
+        <element label="Category" max_length="4000" name="category" type="string"/>
+        <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
+        <element label="Production" max_length="250" name="production" type="string"/>
+        <element label="Language" max_length="250" name="language" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
+                <element inactive_on_update="false" label="Episode" sequence="1" value="episode"/>
+            </choice>
+        </element>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element label="Awards" max_length="250" name="awards" type="string"/>
+    </element>
+</database>
