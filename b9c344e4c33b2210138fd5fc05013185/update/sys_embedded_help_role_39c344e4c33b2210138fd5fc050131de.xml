@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1330572_sharkf_0.moderator" name="x_1330572_sharkf_0.moderator">f5c344e4c33b2210138fd5fc050131da</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-01 20:18:55</sys_created_on>
+        <sys_id>39c344e4c33b2210138fd5fc050131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f5c344e4c33b2210138fd5fc050131da</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>sys_embedded_help_role_39c344e4c33b2210138fd5fc050131de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-01 20:18:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
