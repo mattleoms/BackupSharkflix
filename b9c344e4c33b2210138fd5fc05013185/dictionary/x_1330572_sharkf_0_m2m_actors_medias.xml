@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d23d01b4c333a210138fd5fc050131f9" label="x_1330572_sharkf_0_m2m_Actors_Medias" max_length="40" name="x_1330572_sharkf_0_m2m_actors_medias" type="collection">
+        <element attributes="encode_utf8=false" label="Actors" max_length="32" name="x_1330572_sharkf_0_actor" reference="x_1330572_sharkf_0_actor" type="reference"/>
+        <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1330572_sharkf_0_media" reference="x_1330572_sharkf_0_media" type="reference"/>
+        <index name="index">
+            <element name="x_1330572_sharkf_0_actor"/>
+        </index>
+        <index name="index2">
+            <element name="x_1330572_sharkf_0_media"/>
+        </index>
+    </element>
+</database>

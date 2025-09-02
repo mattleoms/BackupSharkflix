@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a15678b8c3bf6210138fd5fc05013145" extends="task" label="Suggestion" max_length="40" name="x_1330572_sharkf_0_suggestion" type="collection">
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
+                <element inactive_on_update="false" label="Episode" sequence="1" value="episode"/>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+            </choice>
+        </element>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element display="true" label="Title" max_length="1000" name="title" type="string"/>
+    </element>
+</database>
