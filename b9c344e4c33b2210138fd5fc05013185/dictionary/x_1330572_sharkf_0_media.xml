@@ -9,7 +9,7 @@
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Country" max_length="250" name="country" type="string"/>
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
-        <element label="Category" max_length="4000" name="category" type="string"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
         <element label="Production" max_length="250" name="production" type="string"/>
         <element label="Language" max_length="250" name="language" type="string"/>
