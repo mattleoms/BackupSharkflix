@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>600</order>
+        <published_ref/>
+        <question display_value="How do you rate the movie?">9f63f50dc377e210138fd5fc05013113</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-03 17:45:56</sys_created_on>
+        <sys_id>94f3714dc377e210138fd5fc050131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>question_choice_94f3714dc377e210138fd5fc050131c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-03 17:45:56</sys_updated_on>
+        <text>6</text>
+        <value>6</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=94f3714dc377e210138fd5fc050131c8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</application>
+        <file_path/>
+        <instance_id>2338cf063b8e5658a36804e0b5e45a0a</instance_id>
+        <instance_name>dev291471</instance_name>
+        <name>question_choice_94f3714dc377e210138fd5fc050131c8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>600</order><published_ref/><question display_value="How do you rate the movie?">9f63f50dc377e210138fd5fc05013113</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-03 17:45:56</sys_created_on><sys_id>94f3714dc377e210138fd5fc050131c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6</sys_name><sys_package/><sys_policy/><sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope><sys_update_name>question_choice_94f3714dc377e210138fd5fc050131c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-03 17:45:56</sys_updated_on><text>6</text><value>6</value></question_choice><fx_price action="delete_multiple" query="id=94f3714dc377e210138fd5fc050131c8"/></record_update>]]></payload>
+        <payload_hash>-769151146</payload_hash>
+        <record_name>6</record_name>
+        <reverted_from/>
+        <source>b4430201c3f7e210138fd5fc05013181</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-03 18:52:53</sys_created_on>
+        <sys_id>c5434201c3f7e210138fd5fc05013142</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19910ecbb170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-03 18:52:53</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>8943420140f7e2102ca19e29f07b2741</update_guid>
+        <update_guid_history>8943420140f7e2102ca19e29f07b2741:-769151146,eb647d4d0f77e210dea1c471c310b305:1513155770,6b647d4dae77e2109f071a65cc331103:-1500725853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="6">81858e81c3f7e210138fd5fc05013134</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-03 19:02:43</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>207dec49ce024e70843a9f9181250bf1</sys_id>
+        <sys_metadata>94f3714dc377e210138fd5fc050131c8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6</sys_name>
+        <sys_package/>
+        <sys_parent display_value="How do you rate the movie?">9f63f50dc377e210138fd5fc05013113</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_scope_delete display_value="">0e8d182097a34cd89c27dd0c2855a640</sys_scope_delete>
+        <sys_update_name>question_choice_94f3714dc377e210138fd5fc050131c8</sys_update_name>
+        <sys_update_version display_value="question_choice_94f3714dc377e210138fd5fc050131c8">c5434201c3f7e210138fd5fc05013142</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-03 19:02:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
