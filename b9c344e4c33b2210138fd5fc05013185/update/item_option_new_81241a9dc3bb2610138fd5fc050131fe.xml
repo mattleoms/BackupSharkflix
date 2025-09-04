@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Review a Movie">6b11f549c377e210138fd5fc050131d6</cat_item>
+        <cat_item display_value="Copy of Review a Movie">0124d21dc3bb2610138fd5fc050131c8</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -18,15 +18,15 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="Which movie do you want to review?">21b1b589c377e210138fd5fc05013134</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -77,16 +77,16 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:08:56</sys_created_on>
-        <sys_id>47a49601c33be210138fd5fc050131e7</sys_id>
+        <sys_created_on>2025-09-04 14:45:06</sys_created_on>
+        <sys_id>81241a9dc3bb2610138fd5fc050131fe</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Poster URL</sys_name>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
-        <sys_update_name>item_option_new_47a49601c33be210138fd5fc050131e7</sys_update_name>
+        <sys_update_name>item_option_new_81241a9dc3bb2610138fd5fc050131fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 14:47:41</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:47:00</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=47a49601c33be210138fd5fc050131e7"/>
-    <fx_price action="delete_multiple" query="id=47a49601c33be210138fd5fc050131e7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=81241a9dc3bb2610138fd5fc050131fe"/>
+    <fx_price action="delete_multiple" query="id=81241a9dc3bb2610138fd5fc050131fe"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>47a49601c33be210138fd5fc050131e7</id>
+        <id>81241a9dc3bb2610138fd5fc050131fe</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:08:56</sys_created_on>
-        <sys_id>43a45e45c33be210138fd5fc05013120</sys_id>
+        <sys_created_on>2025-09-04 14:45:06</sys_created_on>
+        <sys_id>c5245a9dc3bb2610138fd5fc05013106</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:08:56</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:45:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>47a49601c33be210138fd5fc050131e7</id>
+        <id>81241a9dc3bb2610138fd5fc050131fe</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-03 20:08:56</sys_created_on>
-        <sys_id>c7a45e45c33be210138fd5fc0501311f</sys_id>
+        <sys_created_on>2025-09-04 14:45:06</sys_created_on>
+        <sys_id>4d245a9dc3bb2610138fd5fc05013105</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-03 20:08:56</sys_updated_on>
+        <sys_updated_on>2025-09-04 14:45:06</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
