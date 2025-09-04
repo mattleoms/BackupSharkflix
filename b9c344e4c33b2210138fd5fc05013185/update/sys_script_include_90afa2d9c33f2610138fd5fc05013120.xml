@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1330572_sharkf_0.MediaUtilsClient</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MediaUtilsClient</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MediaUtilsClient = Class.create();
+MediaUtilsClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getMediaData: function() {
+        var media_sys_id = this.getParameter("sysparm_media_sys_id");
+        var grMedia = new GlideRecord("x_1330572_sharkf_0_media");
+        grMedia.get(media_sys_id);
+
+        return JSON.stringify({
+            synopsis: grMedia.getValue("synopsis"),
+            average_rating: grMedia.getValue("average_rating"),
+            poster_url: grMedia.getValue("poster")
+        });
+    },
+
+    type: 'MediaUtilsClient'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 16:54:11</sys_created_on>
+        <sys_id>90afa2d9c33f2610138fd5fc05013120</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MediaUtilsClient</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>sys_script_include_90afa2d9c33f2610138fd5fc05013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:48:04</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>90afa2d9c33f2610138fd5fc05013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 16:54:11</sys_created_on>
+        <sys_id>00b13615c33f2610138fd5fc050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 16:54:11</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

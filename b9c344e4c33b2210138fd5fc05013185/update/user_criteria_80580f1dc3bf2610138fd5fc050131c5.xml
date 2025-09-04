@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group/>
+        <location/>
+        <match_all>false</match_all>
+        <name>Users and moderators</name>
+        <role>f5c344e4c33b2210138fd5fc050131da,79c344e4c33b2210138fd5fc050131fd,35c344e4c33b2210138fd5fc050131fa</role>
+        <script><![CDATA[/** Scripted User Criteria is not cached, and evaluated everytime, so performance is dependent on the script.
+* Populate `answer` with true/false or evaluate to true/false
+* The script is evaluated in the scope the user criteria is defined
+* Don't use `current` in the script or populate the variable
+* Don't use `gs.getUser()` or  `gs.getUserID()`, 
+* instead use `user_id` which contains the user sys_id against whom the evaluation is happening.
+*/]]></script>
+        <short_description>Restrict acess only for users, administrators and moderators of Sharkflix.</short_description>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 18:40:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80580f1dc3bf2610138fd5fc050131c5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Users and moderators</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>user_criteria_80580f1dc3bf2610138fd5fc050131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 19:05:05</sys_updated_on>
+        <user/>
+    </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=80580f1dc3bf2610138fd5fc050131c5"/>
+</record_update>
