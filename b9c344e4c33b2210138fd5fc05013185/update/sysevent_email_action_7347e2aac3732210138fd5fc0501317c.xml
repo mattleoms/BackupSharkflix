@@ -39,10 +39,11 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p><span data-teams="true">Hello, ${opened_by.first_name}!</span></p>
-<p><span data-teams="true">Thank you for your review for the ${media.type} ${media.title}. </span><span data-teams="true">It is approved.</span></p>]]></message_html>
+<p><span data-teams="true">Thank you for your review for the ${media.type} ${media.title}. </span><span data-teams="true">It is reproved.</span></p>
+<p><span data-teams="true">The reproval reason is ${reproval_reason}</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Review Approved</name>
+        <name>Review Reproved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -57,19 +58,19 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-05 20:21:12</sys_created_on>
+        <sys_created_on>2025-09-08 13:21:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>74a9a479c33ba610138fd5fc050131fa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Review Approved</sys_name>
+        <sys_id>7347e2aac3732210138fd5fc0501317c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Review Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
-        <sys_update_name>sysevent_email_action_74a9a479c33ba610138fd5fc050131fa</sys_update_name>
+        <sys_update_name>sysevent_email_action_7347e2aac3732210138fd5fc0501317c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 13:36:40</sys_updated_on>
+        <sys_updated_on>2025-09-08 13:37:51</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
