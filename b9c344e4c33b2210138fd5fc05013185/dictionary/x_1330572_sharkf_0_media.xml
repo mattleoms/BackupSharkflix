@@ -5,6 +5,7 @@
         <element label="Genre" max_length="1024" name="genre" reference="x_1330572_sharkf_0_genre" type="glide_list"/>
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Country" max_length="250" name="country" type="string"/>
