@@ -3,12 +3,13 @@
         <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1330572_sharkf_0_genre" type="glide_list"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
         <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Media Not Found" sequence="4" value="7"/>
-                <element inactive_on_update="false" label="Start" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
                 <element inactive_on_update="false" label="Integration Success" sequence="2" value="3"/>
