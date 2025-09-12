@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Copy of Review a Movie">5c9ffbf3c3772210138fd5fc0501316b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 16:59:18</sys_created_on>
+        <sys_id>459f7ff3c3772210138fd5fc0501316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Review a Movie.Users and moderators</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_459f7ff3c3772210138fd5fc0501316c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 16:59:18</sys_updated_on>
+        <user_criteria display_value="Users and moderators">80580f1dc3bf2610138fd5fc050131c5</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</application>
+        <file_path/>
+        <instance_id>2338cf063b8e5658a36804e0b5e45a0a</instance_id>
+        <instance_name>dev291471</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_459f7ff3c3772210138fd5fc0501316c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Review a Movie">5c9ffbf3c3772210138fd5fc0501316b</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 16:59:18</sys_created_on><sys_id>459f7ff3c3772210138fd5fc0501316c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Copy of Review a Movie.Users and moderators</sys_name><sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package><sys_policy/><sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_459f7ff3c3772210138fd5fc0501316c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 16:59:18</sys_updated_on><user_criteria display_value="Users and moderators">80580f1dc3bf2610138fd5fc050131c5</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1938994102</payload_hash>
+        <record_name>Copy of Review a Movie.Users and moderators</record_name>
+        <reverted_from/>
+        <source>3209db20c3b76210138fd5fc0501311d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 16:59:18</sys_created_on>
+        <sys_id>cd9f7ff3c3772210138fd5fc0501316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993eddf9730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 16:59:18</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>c19f7ff3fd7722101329d46e824e476f</update_guid>
+        <update_guid_history>c19f7ff3fd7722101329d46e824e476f:-1938994102</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Copy of Review a Movie.Users and moderators">0b40cc04c3443210138fd5fc050131cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 17:02:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>09aafa25e9c547a08099b0bb60f71af1</sys_id>
+        <sys_metadata>459f7ff3c3772210138fd5fc0501316c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Review a Movie.Users and moderators</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_scope_delete display_value="">0e8d182097a34cd89c27dd0c2855a640</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_459f7ff3c3772210138fd5fc0501316c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_459f7ff3c3772210138fd5fc0501316c">cd9f7ff3c3772210138fd5fc0501316f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 17:02:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -11,16 +11,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 13:14:06</sys_created_on>
         <sys_id>4d4fe73ac37b6210138fd5fc050131fc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_1330572_sharkf_0.integration_retry_timeout</sys_name>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
         <sys_update_name>sys_properties_4d4fe73ac37b6210138fd5fc050131fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-11 20:57:47</sys_updated_on>
+        <sys_updated_on>2025-09-12 16:23:00</sys_updated_on>
         <type>integer</type>
-        <value>10</value>
+        <value>300</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=4d4fe73ac37b6210138fd5fc050131fc"/>
