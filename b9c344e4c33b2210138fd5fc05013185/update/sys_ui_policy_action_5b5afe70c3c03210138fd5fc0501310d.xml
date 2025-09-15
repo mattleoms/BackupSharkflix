@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
         <cleared>false</cleared>
-        <disabled>ignore</disabled>
-        <field>poster</field>
+        <disabled>true</disabled>
+        <field>imdb_rating</field>
         <field_message/>
         <field_message_type>none</field_message_type>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-08 20:13:51</sys_created_on>
-        <sys_id>f9b504fac33b2210138fd5fc0501315e</sys_id>
+        <sys_created_on>2025-09-15 14:30:49</sys_created_on>
+        <sys_id>5b5afe70c3c03210138fd5fc0501310d</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>poster</sys_name>
+        <sys_name>imdb_rating</sys_name>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
-        <sys_update_name>sys_ui_policy_action_f9b504fac33b2210138fd5fc0501315e</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_5b5afe70c3c03210138fd5fc0501310d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 14:35:07</sys_updated_on>
+        <sys_updated_on>2025-09-15 14:31:44</sys_updated_on>
         <table>x_1330572_sharkf_0_media</table>
-        <ui_policy display_value="Hide empty fields">9c4bdb2ac3772210138fd5fc05013102</ui_policy>
+        <ui_policy display_value="Read-only fields when complete">80297270c3c03210138fd5fc050131c6</ui_policy>
         <value/>
         <value_action>ignore</value_action>
-        <visible>true</visible>
+        <visible>ignore</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=f9b504fac33b2210138fd5fc0501315e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b5afe70c3c03210138fd5fc0501310d"/>
 </record_update>
