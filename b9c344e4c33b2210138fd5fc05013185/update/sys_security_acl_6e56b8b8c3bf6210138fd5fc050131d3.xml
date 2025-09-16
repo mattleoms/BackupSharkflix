@@ -6,7 +6,7 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description/>
+        <description>Allow write for records in x_1330572_sharkf_0_suggestion, for users with role x_1330572_sharkf_0.administrator.</description>
         <local_or_existing>Local</local_or_existing>
         <name>x_1330572_sharkf_0_suggestion</name>
         <operation display_value="write">write</operation>
@@ -16,14 +16,25 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-02 18:38:22</sys_created_on>
         <sys_id>6e56b8b8c3bf6210138fd5fc050131d3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_1330572_sharkf_0_suggestion</sys_name>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
         <sys_update_name>sys_security_acl_6e56b8b8c3bf6210138fd5fc050131d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-02 18:38:22</sys_updated_on>
+        <sys_updated_on>2025-09-15 17:03:13</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6e56b8b8c3bf6210138fd5fc050131d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 16:51:02</sys_created_on>
+        <sys_id>d17a13b8c3443210138fd5fc05013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 16:51:02</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
