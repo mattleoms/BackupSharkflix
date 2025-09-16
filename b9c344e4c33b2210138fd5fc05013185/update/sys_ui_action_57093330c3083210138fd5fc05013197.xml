@@ -32,7 +32,43 @@
         <order>100</order>
         <script><![CDATA[current.setValue("state", "3");
 current.update();
-action.setRedirectURL(current);]]></script>
+
+var grMedia = new GlideRecord("x_1330572_sharkf_0_media");
+grMedia.addEncodedQuery("title=" + current.getValue("title") + "^type=" + current.getValue("type") + "^release_year=" + current.getValue("release_year") + "^state!=7^sys_id!=" + current.getValue("sys_id"));
+grMedia.query();
+
+while (grMedia.next()) {
+    grMedia.setValue("state", "7");
+    grMedia.setValue("genre", "");
+    grMedia.setValue("release_date", "");
+    grMedia.setValue("release_year", "");
+    grMedia.setValue("category", "");
+    grMedia.setValue("synopsis", "");
+    grMedia.setValue("writers", "");
+    grMedia.setValue("production", "");
+    grMedia.setValue("poster", "");
+    grMedia.setValue("website", "");
+    grMedia.setValue("average_rating", "");
+    grMedia.setValue("imdb_rating", "");
+    grMedia.setValue("metascore", "");
+    grMedia.setValue("awards", "");
+    grMedia.setValue("language", "");
+    grMedia.setValue("country", "");
+    grMedia.setValue("integration_state", "3");
+    grMedia.setValue("integration_error_message", "");
+
+var grMediaActor = new GlideRecord("x_1330572_sharkf_0_m2m_actors_medias");
+grMediaActor.addEncodedQuery("x_1330572_sharkf_0_media=" + grMedia.getValue("sys_id"));
+grMediaActor.query();
+grMediaActor.deleteMultiple();
+
+var grMediaDirector = new GlideRecord("x_1330572_sharkf_0_m2m_directors_medias");
+grMediaDirector.addEncodedQuery("x_1330572_sharkf_0_media=" + grMedia.getValue("sys_id"));
+grMediaDirector.query();
+grMediaDirector.deleteMultiple();
+grMedia.update();
+};
+action.setRedirectURL(current); //vai permanecer na página]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -43,7 +79,7 @@ action.setRedirectURL(current);]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57093330c3083210138fd5fc05013197</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
@@ -51,7 +87,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
         <sys_update_name>sys_ui_action_57093330c3083210138fd5fc05013197</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 19:33:07</sys_updated_on>
+        <sys_updated_on>2025-09-16 17:49:30</sys_updated_on>
         <table>x_1330572_sharkf_0_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -16,8 +16,8 @@
     }
 
     //Type appropriate comment here, and begin script below
-    if (!/^\d{4}$/.test(newValue)) {
-        g_form.addErrorMessage("Invalid format for Release Year.");
+    if (!/^(18[0-9]{2}|19[0-9]{2}|20[0-1][0-9]|202[0-5])$/.test(newValue)) {
+        g_form.addErrorMessage("Please insert a year between 1800 and presents year.");
         g_form.setValue("release_year", "");
     } else {
         g_form.clearMessages();
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4a6083ec33b2210138fd5fc050131e2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Validate year</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
         <sys_update_name>sys_script_client_a4a6083ec33b2210138fd5fc050131e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 20:30:00</sys_updated_on>
+        <sys_updated_on>2025-09-16 19:01:46</sys_updated_on>
         <table>x_1330572_sharkf_0_media</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
