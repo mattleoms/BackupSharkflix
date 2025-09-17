@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1330572_sharkf_0.MediaUtilsPerformance</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MediaUtilsPerformance</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MediaUtilsPerformance = Class.create();
+MediaUtilsPerformance.prototype = {
+    initialize: function() {},
+    refQualMedias: function() {
+        var moviesNoToBeShown = [];
+        var grReview = new GlideRecord("x_1330572_sharkf_0_review");
+        grReview.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=4");
+        grReview.query();
+        
+		while (grReview.next()) {
+            moviesNoToBeShown.push(grReview.media.sys_id.toString());
+        };
+        
+		var moviesToBeShown = [];
+        var grMedia = new GlideRecord("x_1330572_sharkf_0_media");
+        grMedia.addQuery("state", "3");
+        grMedia.query();
+        
+		while (grMedia.next()) {
+            if (moviesNoToBeShown.indexOf(grMedia.getUniqueValue()) == -1) {
+                moviesToBeShown.push(grMedia.getUniqueValue());
+            };
+        };
+        
+		return "sys_idIN" + moviesToBeShown.join(",");
+    },
+
+    type: 'MediaUtilsPerformance'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 12:55:14</sys_created_on>
+        <sys_id>53157c25c3487210138fd5fc05013188</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MediaUtilsPerformance</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
+        <sys_update_name>sys_script_include_53157c25c3487210138fd5fc05013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 13:09:19</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>53157c25c3487210138fd5fc05013188</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 12:55:14</sys_created_on>
+        <sys_id>faa77c65c3487210138fd5fc05013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 12:55:14</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

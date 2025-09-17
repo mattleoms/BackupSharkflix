@@ -31,7 +31,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Copy of Review a Movie</name>
+        <name>Copy of Review a Movie (scripting)</name>
         <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -89,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-04 14:45:05</sys_created_on>
         <sys_id>0124d21dc3bb2610138fd5fc050131c8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>Copy of Review a Movie</sys_name>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Copy of Review a Movie (scripting)</sys_name>
         <sys_package display_value="Sharkflix" source="x_1330572_sharkf_0">b9c344e4c33b2210138fd5fc05013185</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">b9c344e4c33b2210138fd5fc05013185</sys_scope>
         <sys_update_name>sc_cat_item_producer_0124d21dc3bb2610138fd5fc050131c8</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 19:11:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-17 12:58:30</sys_updated_on>
         <table_name>x_1330572_sharkf_0_review</table_name>
         <taxonomy_topic display_value="Software">d22413a7c3053010069aec4b7d40ddf8</taxonomy_topic>
         <template/>
@@ -104,7 +104,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>57</version>
+        <version>60</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
